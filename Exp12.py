@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
-from sklearn.datasets import load_iris
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+
 
 feature1 = np.random.randint(60, 200, size=(10000, 1))
 feature2 = np.random.randint(60, 300, size=(10000, 1))
